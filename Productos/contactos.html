@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> OrtoPlanet Contactos     </title>
+        <link rel="shortcut icon" href="logoproductos.ico" type="image/x-icon">
+        <link rel="stylesheet" href="C:\Users\user\Documents\ORACLE ALURA PROGRAMCION\HTML5 y CSS3\Mi primera Pagina Web\reset.css">
+        <link rel="stylesheet" href="contactos.css">
+        
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <hi><img id="img logo" src="logoproductos.png" style="
+                    width: 50%;
+                    margin-left: -150px;"></hi>
+                <nav>
+                    <ul>
+                    <li><a href="C:\Users\user\Documents\ORACLE ALURA PROGRAMCION\HTML5 y CSS3\Mi primera Pagina Web\index.html">Home </a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100063951638908&sk=about">Contactos</a></li>
+                    <li><a href="https://www.google.com/maps/place/OrtoPlanet/@-0.0963616,-78.4507632,19z/data=!3m1!4b1!4m5!3m4!1s0x91d58f3dbd64d8d9:0x3faf8b3ce02e3bcb!8m2!3d-0.0963629!4d-78.4501195">Direccion</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+
+            <form>
+                <label for="nombre">Nombre y Apellido</label>
+                <input id="nombre" type="name" required placeholder="Su nombre y apellido">
+
+                <label for="correo">Correo Electronico</label>
+                <input id="correo" type="mail"  required placeholder="email@ortomundo.com">
+
+                <label for="telefono">Numero de Telefono</label>
+                <input id="telefono" type="tel" required placeholder="+593 XXXXXXXXX">
+  
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" ></textarea>
+
+                <fieldset>
+
+                    <legend class="como">¿Como le contactamos?</legend>
+
+                    <label for="radio-email">Corre Electronico</label>
+                    <input type="radio" name="contacto" value="email" id="emailid" class="button-padron">
+
+                    <label for="radio-telefono">Telefono</label>
+                    <input type="radio" name="contacto" value="telefono" id="telefonoid" class="button-padron" >
+
+                    <label for="radio">Whatsapp</label>
+                    <input type="radio" name="contacto" value="whatsapp" id="whatsappid" class="button-padron">
+
+                </fieldset>
+
+                <label><input type="checkbox" style="display:inline;margin:1px;width: 10px;"></imput> Le interesa saber de promociones? </label>
+
+                <fieldset>
+                    <legend>En que horario nos podemos comunicar contigo?</legend>
+                    <select required>
+                        <option>Mañana</option>
+                        <option>Tarde </option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" class="enviar">
+
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>9h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>9h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>9h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>9h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>9h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>8h ~ 14h</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </main>
+
+        <footer>
+            <img src="C:\Users\user\Documents\ORACLE ALURA PROGRAMCION\HTML5 y CSS3\Mi primera Pagina Web\logoO.png.png" style="height: 100px;">
+            <p> © Copyright OrtoPlanet-2022</p>
+
+        </footer>
+    </body>
+
+</html>

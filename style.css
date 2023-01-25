@@ -1,0 +1,81 @@
+.logo {
+    position: absolute;
+    height: 100px;
+    z-index: 1;
+    margin-left: 20px;
+     
+}
+body{
+    background: linear-gradient(to bottom, rgb(232, 232, 223), rgb( 232, 232, 232), rgb(24, 142, 153));
+}
+#portada{
+width: 100%;
+z-index: -1;
+}
+.principal{
+    display: inline-block;
+    padding-left: 5%;
+    text-align: center;
+    clear: left;
+}
+.principal p{
+
+    margin: 0 0 1em;
+    text-align: left;
+
+}
+.principal strong{
+    font-style: bold;
+    font-size: 25px;
+}
+.titulo-principal{
+text-align: center;
+font-size: 3em;
+margin: 30px 0 1em 0;
+}
+em strong{
+    color: red;
+}
+#mision{
+font-size: 20px;
+}
+.listas li{
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 10%;
+}
+ul{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: center;   
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -50%);
+
+}
+.servicios{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    margin:0 0 20px 0;
+    
+}
+.imagen2{
+    padding: 10px;
+    float: left;
+    margin: 0 10px 20px 0;
+    width: 120px;
+}
+.cirujia{
+    position: relative;
+    width: 40%;
+    margin-left: 240px;
+    border-radius: 10px;
+}
+.mapa{
+    padding: 3em;
+}
+.video{
+    padding:20px    ;
+    margin-left: 500px;
+}
